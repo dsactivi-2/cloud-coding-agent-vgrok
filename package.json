@@ -1,0 +1,17 @@
+{
+  "name": "cloud-coding-agent-vgrok",
+  "version": "1.0.0",
+  "description": "Production Cloud Coding & Automation Agent mit Supervisor, Runner, V1+V2, UIX",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "infra:up": "cd infra && docker compose up -d",
+    "infra:down": "cd infra && docker compose down"
+  },
+  "keywords": ["agent", "automation", "ai", "cloud"],
+  "author": "activi-dev",
+  "license": "MIT",
+  "packageManager": "pnpm@10.27.0"
+}
